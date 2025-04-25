@@ -41,6 +41,7 @@ export default function Home() {
         </div>
       )}
 
+
       <div className="grid grid-cols-2 mx-40 gap-x-10">
         <SolanaWallets solanaWallets={solanaWallets} />
         <EthWallets ethWallets={ethWallets} />
