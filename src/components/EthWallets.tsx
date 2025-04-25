@@ -23,14 +23,14 @@ export default function EthWallets({ ethWallets }: EthWalletsProps) {
     if (ethWallets.length === 0) return null;
 
     return (
-        <div className="mt-8 space-y-4">
+        <div className="mt-8 space-y-4 w-full px-2 sm:px-0">
 
             {ethWallets.map((wallet, index) => (
                 <div
                     key={index}
                     className="border border-neutral-700 rounded-xl p-4 bg-neutral-900 text-white shadow-sm"
                 >
-                    <div className="mb-2 text-sm text-neutral-400">Wallet #{index + 1}</div>
+                    <div className="mb-2 text-sm text-neutral-400">Eth Wallet #{index + 1}</div>
 
                     <div className="mb-2">
                         <div className="text-sm text-neutral-300">Address</div>
